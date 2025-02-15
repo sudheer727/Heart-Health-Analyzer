@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Health Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Heart Health Analyzer</h1>
+    <form id="healthForm">
+        <label>Age: <input type="number" id="age" required></label><br>
+        <label>Gender: 
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </label><br>
+        <label>Weight (kg): <input type="number" id="weight" required></label><br>
+        <label>Cholesterol Level: <input type="number" id="cholesterol" required></label><br>
+        <label>Blood Pressure: <input type="number" id="bp" required></label><br>
+        <button type="submit">Analyze</button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
